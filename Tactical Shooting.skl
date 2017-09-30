@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<skill_list id="54d834d6-014a-4463-9d50-e035f0db3b8a" version="1">
+	<skill_container version="2" open="yes">
+		<name>Skills</name>
+		<skill version="2">
+			<name>Breath Control</name>
+			<difficulty>HT/H</difficulty>
+			<points>1</points>
+			<reference>B172; TSh41</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Camouflage</name>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B183; TSh41</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Connoisseur</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B185; TSh41</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Gunner</name>
+			<specialization>@Specialty@</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>@Specialty@</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198,199; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Grenade Launcher (GL)</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Gyroc</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Light Machine Gun (LMG)</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Musket</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Rifle</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Pistol</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Shotgun</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Submachine Gun (SMG)</specialization>
+			<tech_level/>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198; TSh42</reference>
+			<categories>
+				<category>Skills</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher (GL)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon (LAW)</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun (LMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun (SMG)</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B224; TSh42</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+	</skill_container>
+	<skill_container version="2" open="yes">
+		<name>Techniques</name>
+		<technique version="2" limit="-4">
+			<name>Behind-the-Back Shot</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh43</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>-7</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Cavalry Training</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh43</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>-2</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Riding</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="3">
+			<name>Close Hip Shooting</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh43</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="4">
+			<name>Close Quarters Battle</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh43</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>@Specialty@</specialization>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<technique version="2" limit="4">
+			<name>Combat Riding</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh43</reference>
+			<default>
+				<type>Skill</type>
+				<name>Riding</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Riding</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Double Loading</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>Fast-Draw</name>
+				<specialization>Ammo</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Fast-Draw</name>
+					<specialization compare="is">Ammo</specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Dual Weapon Attack</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<technique version="2">
+			<name>Fanning</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistols</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Pistols</specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Fast-Firing</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Immediate Action</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>@Specialty@</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Submachine Gun (SMG)</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Shotgun</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Rifle</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Pistol</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Light Machine Gun (LMG)</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Light Anti-Armor Weapon (LAW)</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Grenade Launcher (GL)</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Armoury</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Masked Shooting</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Mounted Shooting</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh44</reference>
+			<default>
+				<type>Skill</type>
+				<name>@Ranged Weapon Skill@</name>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">vehicle operation skill</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Riding</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Precision Aiming</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>@Specialty@</specialization>
+				<modifier>-6</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Observation</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Quick-Shot</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>@Specialty@</specialization>
+				<modifier>-6</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="5">
+			<name>Retain Weapons</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>DX</type>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Targeted Attack</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">Liquid Projector</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Gunner</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Thumbing</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Pistols</specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Two-Handed Thumbing</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is">Pistols</specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Work by Touch</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<default>
+				<type>Skill</type>
+				<name>Armoury</name>
+				<modifier>-5</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Armory</name>
+					<specialization compare="is">Small Arms</specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Targeted Attack</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>Skill</type>
+				<name>Gunner</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">Liquid Projector</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Gunner</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2">
+			<name>Targeted Attack</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>TSh45</reference>
+			<default>
+				<type>Skill</type>
+				<name>Liquid Projector</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">Liquid Projector</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Gunner</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">Guns</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+	</skill_container>
+</skill_list>

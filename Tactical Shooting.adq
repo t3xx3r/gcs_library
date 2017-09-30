@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<advantage_list id="be266feb-84ff-4a89-8a13-5c7ab5bf3e46" version="1">
+	<advantage version="2">
+		<name>Acute Hearing</name>
+		<type>Physical</type>
+		<levels>1</levels>
+		<points_per_level>2</points_per_level>
+		<reference>B35; TSh36</reference>
+		<notes>Realistic - max 4</notes>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>hearing</attribute>
+			<amount per_level="yes">1</amount>
+		</attribute_bonus>
+	</advantage>
+	<advantage version="2">
+		<name>Acute Vision</name>
+		<type>Physical</type>
+		<levels>1</levels>
+		<points_per_level>2</points_per_level>
+		<reference>B35; TSh36</reference>
+		<notes>Realistic - max 2</notes>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>vision</attribute>
+			<amount per_level="yes">1</amount>
+		</attribute_bonus>
+	</advantage>
+	<advantage version="2">
+		<name>Ambidexterity</name>
+		<type>Physical</type>
+		<base_points>5</base_points>
+		<reference>B39; TSh36</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>Combat Reflexes</name>
+		<type>Mental</type>
+		<base_points>15</base_points>
+		<reference>B43; TSh36</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>Danger Sense</name>
+		<type>Mental</type>
+		<base_points>15</base_points>
+		<reference>B47; TSh36</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>Fearlessness</name>
+		<type>Mental</type>
+		<levels>1</levels>
+		<points_per_level>2</points_per_level>
+		<reference>B55; TSh36</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>Luck</name>
+		<type>Mental</type>
+		<base_points>15</base_points>
+		<reference>B66; TSh36</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>Night Vision</name>
+		<type>Physical</type>
+		<levels>1</levels>
+		<points_per_level>1</points_per_level>
+		<reference>B71; TSh36,37</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage_container version="2" open="yes">
+		<name>Style Components</name>
+		<advantage_container version="2" open="yes">
+			<name>Style Familiarity</name>
+			<advantage_container version="2" open="yes">
+				<name>Assaulter</name>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Modern Pistol</name>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Point-Shooting</name>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Rifleman</name>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Sharpshooter</name>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Shotgunner</name>
+			</advantage_container>
+			<advantage version="2">
+				<name>Style Familiarity @Style@</name>
+				<type></type>
+				<base_points>1</base_points>
+				<categories>
+					<category>Perks</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">Tactics</name>
+					<specialization compare="is anything"></specialization>
+					<amount>3</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">Soldier</name>
+					<specialization compare="is anything"></specialization>
+					<amount>3</amount>
+				</skill_bonus>
+				<prereq_list all="yes">
+					<advantage_prereq has="no">
+						<name compare="is">Unusual Background</name>
+						<notes compare="is anything"></notes>
+					</advantage_prereq>
+				</prereq_list>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="2" open="yes">
+			<name>Style Perks</name>
+			<advantage version="2">
+				<name>Armorer's Gift</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh37</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">Immediate Action</name>
+					<specialization compare="is anything"></specialization>
+					<amount>2</amount>
+				</skill_bonus>
+				<prereq_list all="no">
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Grenade Launcher (GL)</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Light Anti-Armor Weapon (LAW)</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Light Machine Gun (LMG)</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Submachine Gun (SMG)</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Shotgun</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is anything">Rifle</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Pistol</specialization>
+					</skill_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Barricade Tactics</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh37</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Battle Drills</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh37</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Concealed Carry Permit</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Cool Under Fire</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Cross Trained</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Deadeye</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Early Adopter</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Fastest Gun in the West</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Green Eyes</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh38</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Grip Mastery</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Gun Shtick (Twirl)</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Intuitve Armorer</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Lightning Fingers</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Motorized Training</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Off-Hand Training</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>One-Handed Drills</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Quick Reload</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh39</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Quick Sheathe</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+				<prereq_list all="no">
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Pistol</specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is">Rifle</specialization>
+					</skill_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Quick-Swap</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+				<prereq_list all="no">
+					<skill_prereq has="yes">
+						<name compare="is">Throwing</name>
+						<specialization compare="is anything"></specialization>
+					</skill_prereq>
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is anything">Pistol</specialization>
+					</skill_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Robust (@Sense@)</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Skip Shot</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Standard Operating Procedure</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Supplier</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Sure-Footed</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh40</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Tap-Rack-Bang</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh41</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Tracer Eyes</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh41</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+				<prereq_list all="yes">
+					<skill_prereq has="yes">
+						<name compare="is">Guns</name>
+						<specialization compare="is anything"></specialization>
+					</skill_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Trademark Move</name>
+				<type></type>
+				<base_points>1</base_points>
+				<reference>TSh41</reference>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Weapon Bond</name>
+				<type></type>
+				<base_points>1</base_points>
+				<categories>
+					<category>Style Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_container>
+</advantage_list>
